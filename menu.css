@@ -1,0 +1,129 @@
+/*Braden*/
+/*11/13/2022*/
+/*Chapter 10(Part 3): Menu*/
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSanss";
+  src: url(OpenSans-Light.ttf);
+}
+
+/*body styles*/
+.Background {
+  background: url(images/background.png);
+}
+
+.Menu {
+  text-align: center;
+  background: url(images/banner.jpg) no-repeat;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-size: cover;
+  width: 100%;
+  font-weight: lighter;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.appetizers h2 {
+  text-align: center;
+  color: #66cc66;
+  font-weight: lighter;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.Maindish h2 {
+  text-align: center;
+  color: #66cc66;
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.Dessert {
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #366b36;
+}
+
+#Dessert {
+  text-align: center;
+  color: #366b36;
+  font: lighter 1.5em cursive;
+}
+
+h2,
+h1 {
+  font-family: "OpenSanss";
+}
+
+/*header styles*/
+header {
+  text-align: center;
+}
+
+/*menu item styles*/
+.appetizers dt,
+dd {
+  color: #333333;
+  margin-left: 95px;
+}
+
+.Maindish dt,
+dd {
+  color: #333333;
+  margin-left: 95px;
+}
+
+.Dessert dt {
+  color: #366b36;
+  font: 1.15em cursive;
+  margin-left: 95px;
+}
+
+.appetizers dd {
+  font-size: x-small;
+  font-weight: lighter;
+  margin-left: 115px;
+}
+
+.Maindish dd {
+  font-size: x-small;
+  font-weight: lighter;
+  margin-left: 115px;
+}
+
+.Dessert dd {
+  color: #366b36;
+  font-size: x-small;
+  font-style: italic;
+  margin-left: 115px;
+}
+
+dt,
+dd {
+  font-family: "OpenSans";
+}
+
+.money {
+  font-style: italic;
+}
+
+.money2 {
+  color: #366b36;
+  font-family: cursive;
+  font-size: 1.15em;
+  font-style: normal
+}
+
+/*footer styles*/
+footer {
+  text-align: right;
+  font-size: x-small;
+  margin-right: 20px;
+}
